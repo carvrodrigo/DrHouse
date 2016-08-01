@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrHouse.SqlServer", "src\Dr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F51246C9-569D-475A-9120-3B130A40DFF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrHouse.HttpEndpoint", "src\DrHouse.HttpEndpoint\DrHouse.HttpEndpoint.csproj", "{01C52CCE-25FE-49E7-B5A2-37E6B72AD6ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{0616E941-EC03-486E-A521-C3CD5B41248D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0616E941-EC03-486E-A521-C3CD5B41248D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0616E941-EC03-486E-A521-C3CD5B41248D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01C52CCE-25FE-49E7-B5A2-37E6B72AD6ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C52CCE-25FE-49E7-B5A2-37E6B72AD6ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C52CCE-25FE-49E7-B5A2-37E6B72AD6ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C52CCE-25FE-49E7-B5A2-37E6B72AD6ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,5 +44,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{69444AF7-0369-444D-94C6-3E3261E29CAE} = {F51246C9-569D-475A-9120-3B130A40DFF1}
 		{0616E941-EC03-486E-A521-C3CD5B41248D} = {0D4BAE24-25A5-4347-852B-C06DA362FB7A}
+		{01C52CCE-25FE-49E7-B5A2-37E6B72AD6ED} = {0D4BAE24-25A5-4347-852B-C06DA362FB7A}
 	EndGlobalSection
 EndGlobal
